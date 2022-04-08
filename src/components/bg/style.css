@@ -1,0 +1,48 @@
+.Bg{
+    background-image: url(../../assets/bg.jpg);
+    height:calc(100vh - 80px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.Rgba{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0,0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Formulario{
+    height: 400px;
+    width:400px;
+    background-color:rgba(0,0,0,.75);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color:white;
+   
+    
+    
+}
+
+Button{
+    padding:10px;
+    margin-top: 10px;
+}
+
+.Formulario h1 {
+    font-size:20px;
+}
+
+@media(max-width:768px){
+    .Formulario{
+        margin-bottom: 30%;
+        margin-top:10%;
+    }
+}

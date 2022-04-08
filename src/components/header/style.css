@@ -1,0 +1,55 @@
+header{
+    display:flex;
+    justify-content:center;
+    background-color:black;
+}
+
+.Container{
+ 
+    height:80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+   
+}
+
+.Logo{
+    height:70px;
+    
+    width:70px;
+  margin-left: 8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+    
+}
+
+.Logo img{
+    height:60px;
+    width:60px;
+
+}
+
+.Login{
+
+    height:40px;
+    
+    width:60px;
+    margin-right:10px;
+    margin-top: 3px;
+    margin-left: 8px;
+    border-radius:10px;
+    border:1px solid white;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+
+}
+
+.Login:hover{
+    color:black;
+    background-color:white;
+}
